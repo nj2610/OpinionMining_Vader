@@ -13,11 +13,11 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import nltk
 nltk.download('vader_lexicon')
 
-api_key = ""
-api_secret_key = ""
+api_key = "Your api key here."
+api_secret_key = "Your api secret key here"
 
-access_token = ""
-access_secret_token = ""
+access_token = "Your access token here"
+access_secret_token = "Your access secret access token here"
 
 auth = tweepy.OAuthHandler(api_key, api_secret_key)
 auth.set_access_token(access_token, access_secret_token)
